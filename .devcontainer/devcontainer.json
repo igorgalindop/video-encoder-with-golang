@@ -9,7 +9,8 @@
 		"ghcr.io/devcontainers/features/python:1": {}
 	},
 	"postCreateCommand": {
-		"zsh_default": "echo zsh >> ~/.bashrc"
+		"zsh_default": "echo zsh >> ~/.bashrc",
+		"export_bento4": "echo 'export PATH=$PATH:/opt/bento4/bin' >> ~/.zshrc" 
 	},
 	"customizations": {
 		"vscode": {
